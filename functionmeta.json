@@ -1,0 +1,37 @@
+{
+  "functions": [
+    {
+      "description": "Ask Any Question",
+      "id": "QUESTION",
+      "name": "QUESTION",
+      "parameters": [
+        {
+          "description": "Query",
+          "name": "query",
+          "type": "string"
+        },
+        {
+          "description": "Query2",
+          "name": "query2",
+          "type": "string",
+          "optional": true
+        },
+        {
+          "description": "Query3",
+          "name": "query3",
+          "type": "string",
+          "optional": true
+        },
+        {
+          "description": "Query4",
+          "name": "query4",
+          "type": "string",
+          "optional": true
+        }
+      ],
+      "result": {
+        "type": "string"
+      }
+    }
+  ]
+}
