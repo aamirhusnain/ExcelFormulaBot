@@ -9,7 +9,7 @@ var jQueryScript = document.createElement('script');
 jQueryScript.setAttribute('src', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
 document.head.appendChild(jQueryScript);
 
-function QUESTION(query, query2, query3, query4) {
+function FORMULABOT(query, query2, query3, query4) {
 
 
     var QuestionPrepration = query + " " + (query2 ? query2 : '') + " " +  (query3 ? query3 : '') + " " + (query4 ? query4 : '');
@@ -51,4 +51,4 @@ function QUESTION(query, query2, query3, query4) {
     };
 
 }
-CustomFunctions.associate("QUESTION", QUESTION);
+CustomFunctions.associate("FORMULABOT", FORMULABOT);
