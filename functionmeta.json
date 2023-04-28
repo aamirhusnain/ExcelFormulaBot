@@ -2,8 +2,8 @@
   "functions": [
     {
       "description": "Ask Any Question",
-      "id": "QUESTION",
-      "name": "QUESTION",
+      "id": "FORMULABOT",
+      "name": "FORMULABOT",
       "parameters": [
         {
           "description": "Query",
